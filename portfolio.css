@@ -8,6 +8,7 @@
 body {
   font-family: var(--defult-font-family);
 }
+
 h1,
 h2,
 h3,
@@ -17,6 +18,10 @@ h6 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
+}
+
+h1 {
+  font-size: 96px;
 }
 
 p {
@@ -45,12 +50,9 @@ p {
 
 .btn-branding {
   background: var(--branding-color);
-  width: Fixed (200px) px;
-  height: Hug (63px) px;
-  top: 566px;
-  left: 618px;
-  padding: 18px 30px 18px 30px;
-  gap: 10px;
-  border-radius: 4px 4px 4px 4px;
-  opacity: 0px;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
